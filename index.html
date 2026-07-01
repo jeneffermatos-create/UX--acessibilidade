@@ -1,11 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segurança Digital para Idosos</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Projeto de UX e acessibilidade com foco em interfaces inclusivas, claras e fáceis de usar."
+    />
+    <title>UX e Acessibilidade</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="#inicio">Acessibilidade em Foco</a>
+        <nav aria-label="Navegação principal">
+          <a href="#principios">Princípios</a>
+          <a href="#estrategias">Estratégias</a>
+          <a href="#faq">Perguntas</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo-principal">
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">UX + acessibilidade</p>
+            <h1>Interfaces inclusivas para todos</h1>
+            <p class="lead">
+              Criamos experiências mais claras, seguras e acolhedoras, pensando em
+              pessoas com diferentes perfis, necessidades e níveis de familiaridade com a tecnologia.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#principios">Ver princípios</a>
+              <a class="button secondary" href="#contato">Solicitar orientação</a>
+            </div>
+            <ul class="highlight-list" aria-label="Benefícios principais">
+              <li>Texto legível e linguagem simples</li>
+              <li>Navegação por teclado e foco visível</li>
+              <li>Contraste adequado e feedback claro</li>
+            </ul>
+          </div>
+
+          <aside class="hero-card" aria-labelledby="card-titulo">
+            <h2 id="card-titulo">Por que isso importa?</h2>
+            <p>
+              Uma interface acessível reduz erros, aumenta a confiança e melhora a autonomia de quem usa.
+            </p>
+            <ul>
+              <li>Mais facilidade para encontrar informações</li>
+              <li>Menos frustração no uso diário</li>
+              <li>Mais inclusão para diferentes públicos</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="principios">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Princípios de design</p>
+            <h2>O que torna uma interface realmente inclusiva?</h2>
+            <p>
+              Pequenos detalhes fazem muita diferença na experiência de uso. A acessibilidade começa na organização do conteúdo e se estende até o comportamento da interface.
+            </p>
+          </div>
+
+          <div class="card-grid">
+            <article class="card">
+              <h3>Clareza</h3>
+              <p>Use linguagem simples, títulos objetivos e instruções fáceis de entender.</p>
+            </article>
+            <article class="card">
+              <h3>Consistência</h3>
+              <p>Mantenha padrões visuais e comportamentais para reduzir a carga cognitiva.</p>
+            </article>
+            <article class="card">
+              <h3>Feedback</h3>
+              <p>Mostre mensagens claras após ações, como envio de formulário ou confirmação de escolha.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="estrategias">
+        <div class="container content-grid">
+          <div>
+            <p class="eyebrow">Estratégias práticas</p>
+            <h2>Checklist rápido para melhorar a experiência</h2>
+            <ul class="check-list">
+              <li>Defina hierarquia visual com títulos e espaçamento claros.</li>
+              <li>Garanta contraste suficiente entre texto e fundo.</li>
+              <li>Evite ações ambiguas e mantenha botões com rótulos diretos.</li>
+              <li>Teste a navegação com teclado e leitores de tela.</li>
+            </ul>
+          </div>
+
+          <div class="panel" aria-label="Exemplo prático">
+            <h3>Exemplo prático</h3>
+            <p>
+              Um botão como “Enviar mensagem” deve ser fácil de localizar, ter foco visível e responder com uma confirmação acessível.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Perguntas frequentes</p>
+            <h2>Mais confiança para quem usa</h2>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item">
+              <summary>O que é UX?</summary>
+              <p>É a experiência completa que uma pessoa tem ao interagir com um produto, incluindo facilidade, clareza e satisfação.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Por que acessibilidade é importante?</summary>
+              <p>Porque amplia o acesso, reduz barreiras e faz com que mais pessoas consigam usar a interface com autonomia.</p>
+            </details>
+            <details class="faq-item">
+              <summary>Como começar a melhorar uma interface?</summary>
+              <p>Comece com organização visual, linguagem simples, contraste adequado e testes com usuários reais.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contato">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Fale conosco</p>
+            <h2>Quer criar uma solução mais inclusiva?</h2>
+            <p>
+              Compartilhe sua ideia e vamos construir uma experiência mais clara, segura e acessível para o seu público.
+            </p>
+          </div>
+
+          <form class="contact-form" novalidate>
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" placeholder="Seu nome" required />
+
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="seu@email.com" required />
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte o que você precisa" required></textarea>
+
+            <button class="button primary" type="submit">Enviar mensagem</button>
+            <p class="form-status" data-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>Desenvolvido com foco em UX, inclusão e acessibilidade.</p>
+        <p>© 2026 Acessibilidade em Foco</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
